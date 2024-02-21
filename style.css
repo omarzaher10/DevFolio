@@ -1,0 +1,477 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f5f5 !important;
+}
+
+:root {
+
+    --main-color: #0078ff;
+}
+
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+
+    color: var(--main-color) !important;
+
+}
+
+.nav-link {
+    color: white !important;
+    transition: 1s all;
+}
+
+.nav-link:hover {
+    color: var(--main-color) !important;
+}
+
+#Home {
+    background-image: url(photos/hero-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+#Home .home-content {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#Home .home-content p::after {
+    content: "";
+    animation-name: home_P;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes home_P {
+
+    0% {
+        content: "|";
+    }
+
+    3% {
+        content: "D|";
+    }
+
+    6% {
+        content: "De|";
+    }
+
+    9% {
+        content: "Des|";
+    }
+
+    12% {
+        content: "Desi|";
+    }
+
+    15% {
+        content: "Desig|";
+    }
+
+    18% {
+        content: "Design|";
+    }
+
+    21% {
+        content: "Designe|";
+    }
+
+    24% {
+        content: "Designer|";
+    }
+
+    27% {
+        content: "Designe|";
+    }
+
+    30% {
+        content: "Design|";
+    }
+
+    33% {
+        content: "Desig|";
+    }
+
+    36% {
+        content: "Desi|";
+    }
+
+    39% {
+        content: "Des|";
+    }
+
+    41% {
+        content: "De|";
+    }
+
+    44% {
+        content: "D|";
+    }
+
+    47% {
+        content: "D|";
+    }
+
+    50% {
+        content: "De|";
+    }
+
+    53% {
+        content: "Dev|";
+    }
+
+    56% {
+        content: "Deve|";
+    }
+
+    59% {
+        content: "Devel|";
+    }
+
+    62% {
+        content: "Develo|";
+    }
+
+    65% {
+        content: "Develop|";
+    }
+
+    68% {
+        content: "Develope|";
+    }
+
+    71% {
+        content: "Developer|";
+    }
+
+    74% {
+        content: "Develope|";
+    }
+
+    77% {
+        content: "Develop|";
+    }
+
+    80% {
+        content: "Develo|";
+    }
+
+    83% {
+        content: "Devel|";
+    }
+
+    86% {
+        content: "Deve|";
+    }
+
+    89% {
+        content: "Dev|";
+    }
+
+    92% {
+        content: "De|";
+    }
+
+    95% {
+        content: "D|";
+    }
+
+    100% {
+        content: "|";
+    }
+
+}
+
+
+
+#About .progress {
+    width: 100%;
+    height: 0.7rem;
+    background-color: #cde1f8;
+    position: relative;
+}
+
+
+.one {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 65%;
+    background-color: var(--main-color);
+}
+
+.two {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 75%;
+    background-color: var(--main-color);
+}
+
+.three {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    background-color: var(--main-color);
+
+}
+
+.four {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 90%;
+    background-color: var(--main-color);
+
+}
+
+.about-me {
+    position: relative;
+}
+
+.about-me::after {
+    content: "";
+    position: absolute;
+    background-color: var(--main-color);
+    width: 3.5rem;
+    height: 0.2rem;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+.p-line {
+    position: relative;
+}
+
+.p-line::after {
+    content: "";
+    position: absolute;
+    width: 3.5rem;
+    height: 0.2rem;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: var(--main-color);
+}
+
+
+.icon {
+
+    width: 4rem;
+    height: 4rem;
+    box-shadow: 0 0 0 10px var(--main-color);
+    border-radius: 50%;
+    transition: all 1s;
+
+}
+
+
+.services-content i {
+    transition: all 1s;
+}
+
+.services-content:hover .icon {
+
+
+    box-shadow: 0 0 0 10px #cde1f8;
+    background-color: var(--main-color);
+
+}
+
+.services-content:hover i {
+
+
+    color: white;
+
+}
+
+
+#hall-of-fame {
+    background-image: url(photos/post-3.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+.stats-icon {
+
+    width: 4rem;
+    height: 4rem;
+    box-shadow: 0 0 0 10px #cde1f8;
+    border-radius: 50%;
+    transition: all 1s;
+}
+
+#hall-of-fame .content {
+
+    background-color: rgba(0, 120, 255, 0.7);
+    width: 100%;
+
+}
+
+
+
+#Work .img-work-content {
+
+    overflow: hidden;
+}
+
+
+#Work .img-work-content img {
+
+    transition: all 1s;
+}
+
+
+#Work .img-work-content:hover img {
+
+    transform: scale(1.2);
+}
+
+
+#Work .paragraph-work-content span {
+
+    color: var(--main-color);
+}
+
+
+#carousel {
+    background-image: url(photos/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+
+}
+
+
+#carousel .bg {
+    background-color: rgba(0, 120, 255, 0.7);
+
+}
+
+
+#carouselExampleIndicators .carousel-indicators {
+
+    position: static !important;
+
+}
+
+.description {
+    position: absolute;
+    width: 6rem;
+    height: 1.5rem;
+    background-color: var(--main-color);
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-icon {
+
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+
+#Blog a {
+
+
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s;
+
+}
+
+#Blog a:hover {
+
+    color: var(--main-color);
+}
+
+
+
+#Contact {
+
+    background-image: url(photos/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+   
+}
+
+#Contact .layer {
+
+    background-color: rgba(0, 120, 255, 0.7);
+    
+}
+
+
+
+#Contact h3 {
+    position: relative;
+}
+
+
+
+
+#Contact h3::after {
+
+    content: "";
+    position: absolute;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: var(--main-color);
+    top: 125%;
+    left: 0;
+
+}
+
+
+@media screen and ( max-width:992px) {
+
+    #Contact h3 {
+        position: relative;
+    }
+    
+    
+    
+    
+    #Contact h3::after {
+    
+        content: "";
+        position: absolute;
+        width: 5rem;
+        height: 0.3rem;
+        background-color: var(--main-color);
+        top: 125%;
+        left: 50%;
+        transform: translate(-50%);
+    
+    }
+
+    
+    
+}
+
